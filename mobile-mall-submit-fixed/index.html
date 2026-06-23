@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>云购优选 - 移动端电商首页</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="home">
+  <main class="phone-shell">
+    <div class="status-bar"></div>
+    <header class="app-header">
+      <div class="header-row">
+        <div class="search-box">🔍 <input id="homeSearch" placeholder="搜索好物、品牌、分类"></div>
+        <a class="icon-btn" href="user.html">👤</a>
+      </div>
+    </header>
+    <section class="content">
+      <div class="banner"></div>
+      <div class="quick-grid">
+        <a class="quick-item" href="category.html"><div class="quick-icon">👟</div><span>服饰鞋包</span></a>
+        <a class="quick-item" href="category.html"><div class="quick-icon">🎧</div><span>数码电器</span></a>
+        <a class="quick-item" href="category.html"><div class="quick-icon">🛏️</div><span>家居生活</span></a>
+        <a class="quick-item" href="category.html"><div class="quick-icon">🧴</div><span>美妆个护</span></a>
+        <a class="quick-item" href="category.html"><div class="quick-icon">🍪</div><span>食品生鲜</span></a>
+        <a class="quick-item" href="list.html"><div class="quick-icon">⚡</div><span>限时秒杀</span></a>
+        <a class="quick-item" href="address.html"><div class="quick-icon">📍</div><span>地址管理</span></a>
+        <a class="quick-item" href="order.html"><div class="quick-icon">📦</div><span>订单确认</span></a>
+      </div>
+      <div class="section-title"><h3>限时特价</h3><a href="list.html">查看更多</a></div>
+      <div class="flash-row" id="flashProducts"></div>
+      <div class="section-title"><h3>猜你喜欢</h3><span>真实在线商品图</span></div>
+      <div class="product-grid" id="homeProducts"></div>
+    </section>
+    <nav class="tabbar"></nav>
+  </main>
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>地址管理 - 云购优选</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="address">
+  <main class="phone-shell">
+    <div class="status-bar"></div>
+    <header class="app-header"><div class="header-row"><a class="back" href="user.html">‹</a><div class="page-title">地址管理</div><span style="width:34px"></span></div></header>
+    <section class="content">
+      <div id="addressList"></div>
+      <div class="form-card">
+        <h3 style="margin-top:0">新增收货地址</h3>
+        <form>
+          <div class="input-group"><label>收货人</label><input required placeholder="请输入姓名"></div>
+          <div class="input-group"><label>联系电话</label><input required placeholder="请输入手机号"></div>
+          <div class="input-group"><label>详细地址</label><textarea required placeholder="请输入详细地址"></textarea></div>
+          <button class="btn block" type="submit">保存地址</button>
+        </form>
+      </div>
+    </section>
+  </main>
+  <script src="js/data.js"></script><script src="js/main.js"></script>
+</body>
+</html>
